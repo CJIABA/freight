@@ -1,0 +1,898 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* line 5, ../sass/screen.scss */
+.hover-link:hover, .hover-link:focus {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  color: #2667bb;
+  transition: all 0.9s;
+}
+
+/* line 12, ../sass/screen.scss */
+.hover-link-email:hover, .hover-link-email:focus {
+  text-decoration: none;
+  color: #2061a4;
+  transition: all 0.9s;
+}
+
+/* line 18, ../sass/screen.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 21px;
+  padding: 0;
+  color: #fff;
+  background: none;
+}
+
+/* line 35, ../sass/screen.scss */
+#contacts input, #contacts textarea {
+  border: none;
+  border-bottom: 2px solid #1ca428;
+  font-family: "Droid Sans", sans-serif;
+  resize: none;
+  width: 100%;
+}
+
+/* line 43, ../sass/screen.scss */
+body {
+  text-rendering: optimizelegibility;
+  height: 100%;
+}
+
+/* line 48, ../sass/screen.scss */
+h1 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 80px;
+  line-height: 130px;
+  text-align: center;
+}
+
+/* line 55, ../sass/screen.scss */
+h2 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 80px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* line 62, ../sass/screen.scss */
+h3 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 40px;
+  line-height: 25px;
+  text-align: center;
+  margin: 80px auto;
+  font-weight: bold;
+}
+
+/* line 71, ../sass/screen.scss */
+h4 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+}
+
+/* line 78, ../sass/screen.scss */
+h5 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* line 85, ../sass/screen.scss */
+h6 {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+/* line 92, ../sass/screen.scss */
+p {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* line 99, ../sass/screen.scss */
+.hover-link {
+  color: rgba(14, 32, 62, 0.74);
+  border-bottom: 1px dotted;
+}
+
+/* line 110, ../sass/screen.scss */
+.linkTwitter {
+  text-decoration: none;
+  color: #c2c2c2;
+}
+/* line 113, ../sass/screen.scss */
+.linkTwitter:hover {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  color: #c2c2c2;
+}
+
+/* line 120, ../sass/screen.scss */
+.tag {
+  text-decoration: none;
+  color: #2061a4;
+}
+/* line 123, ../sass/screen.scss */
+.tag:hover {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  color: #2061a4;
+}
+
+/* line 130, ../sass/screen.scss */
+.hover-link-email {
+  color: #fff;
+}
+
+/* line 140, ../sass/screen.scss */
+.green {
+  color: #1ca428;
+}
+
+/* line 147, ../sass/screen.scss */
+a:focus {
+  outline: none;
+}
+
+/* line 154, ../sass/screen.scss */
+#video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 163, ../sass/screen.scss */
+video {
+  z-index: 0;
+}
+/* line 165, ../sass/screen.scss */
+video.fillWidth {
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* line 179, ../sass/screen.scss */
+.navbar {
+  background: transparent;
+  border: none;
+  color: #fff;
+  margin-bottom: -7%;
+  z-index: 4;
+}
+/* line 185, ../sass/screen.scss */
+.navbar .navbar-nav li a {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 21px;
+  color: #fff;
+  margin-left: 50px;
+  padding: 0;
+}
+/* line 191, ../sass/screen.scss */
+.navbar .navbar-nav li a:hover {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 21px;
+  padding: 0;
+  color: #1ca428;
+  border-bottom: 0;
+}
+
+/* line 202, ../sass/screen.scss */
+.navbar-default h1 .navbar-brand {
+  background: url("../images/freight.png");
+  display: block;
+  height: 59px;
+  width: 210px;
+  margin-top: -11px;
+  text-indent: -1055px;
+  text-align: center;
+}
+/* line 210, ../sass/screen.scss */
+.navbar-default h1 .navbar-brand:hover {
+  background: url("../images/freight.png");
+  display: inline;
+}
+
+/* line 227, ../sass/screen.scss */
+.header {
+  background: url("../images/Kramer_bg.png") center center fixed;
+  background-size: cover;
+  background-position: left top;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+/* line 238, ../sass/screen.scss */
+#bottom {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 246, ../sass/screen.scss */
+div.circle {
+  border-top: 1px solid rgba(169, 169, 169, 0.27);
+  padding: 48px 0;
+}
+/* line 250, ../sass/screen.scss */
+div .circle a {
+  text-indent: 100%;
+  display: block;
+  overflow: hidden;
+  margin: -75px auto;
+  width: 60px;
+  height: 60px;
+  background: url(../images/explore.png) no-repeat #2ecc71;
+  background-position: center;
+  border-radius: 30px;
+}
+/* line 261, ../sass/screen.scss */
+div#scroll-able {
+  height: 10px;
+  overflow: scroll;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+/* line 270, ../sass/screen.scss */
+.about-wrap {
+  background-color: #34495e;
+}
+
+/* line 274, ../sass/screen.scss */
+.container #about {
+  color: #fff;
+}
+
+/* line 278, ../sass/screen.scss */
+#threeSections {
+  color: #fff;
+}
+/* line 280, ../sass/screen.scss */
+#threeSections p {
+  font-family: "Droid Serif", serif;
+  font-size: 20px;
+  line-height: 29px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 292, ../sass/screen.scss */
+.svgIcon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 300, ../sass/screen.scss */
+#portfolio {
+  background-color: #fff;
+  overflow: hidden;
+}
+/* line 303, ../sass/screen.scss */
+#portfolio h3 {
+  color: #000000;
+}
+
+/* line 308, ../sass/screen.scss */
+#projekt-menu {
+  position: relative;
+  overflow: hidden;
+  height: 60px;
+  margin: 20px 0;
+}
+/* line 313, ../sass/screen.scss */
+#projekt-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+  font: 20px "Droid Sans", sans-serif;
+  height: 30px;
+}
+/* line 322, ../sass/screen.scss */
+#projekt-menu ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+  margin: 0 5px;
+  height: 30px;
+}
+/* line 328, ../sass/screen.scss */
+#projekt-menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+/* line 335, ../sass/screen.scss */
+#projekt-menu .active {
+  border-radius: 30px;
+  background-color: #43f95a;
+  color: #000000;
+}
+
+/* line 342, ../sass/screen.scss */
+.tile {
+  list-style: none;
+  margin-bottom: 75px;
+  padding: 0;
+}
+/* line 346, ../sass/screen.scss */
+.tile img {
+  width: 100%;
+  height: 100%;
+}
+/* line 350, ../sass/screen.scss */
+.tile li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 33.3333%;
+  overflow: hidden;
+}
+
+/* line 359, ../sass/screen.scss */
+.caption-inner {
+  text-align: center;
+  margin: 15% auto;
+}
+
+/* line 364, ../sass/screen.scss */
+.captions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(14, 32, 62, 0.74);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color: #fff !important;
+  z-index: 2;
+}
+
+/* line 378, ../sass/screen.scss */
+.title {
+  padding: 5px;
+  font-size: 250%;
+}
+
+/* line 383, ../sass/screen.scss */
+.viewProject {
+  display: block;
+  font-family: "Droid Serif", serif;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 70px auto;
+  border: 2px solid;
+  border-radius: 25px;
+  width: 119px;
+  height: 31px;
+  font-size: 13px;
+  padding: 8px;
+}
+/* line 396, ../sass/screen.scss */
+.viewProject:hover {
+  text-decoration: none;
+  color: #43f95a;
+}
+
+/* line 404, ../sass/screen.scss */
+#team {
+  background-color: #2980b9;
+  text-align: center;
+}
+/* line 407, ../sass/screen.scss */
+#team h3 {
+  color: #fff;
+}
+/* line 410, ../sass/screen.scss */
+#team p {
+  color: #fff;
+  padding-bottom: 30px;
+}
+/* line 414, ../sass/screen.scss */
+#team h4 {
+  color: #fff;
+  margin: 20px auto;
+}
+/* line 418, ../sass/screen.scss */
+#team .team-info {
+  padding: 30px;
+  float: none;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  text-align: center;
+  font-size: 200%;
+}
+/* line 428, ../sass/screen.scss */
+#team .team-info img {
+  margin-right: 10px;
+}
+/* line 432, ../sass/screen.scss */
+#team .logo-service img {
+  border: 5px solid white;
+  border-radius: 115px;
+}
+
+/* line 440, ../sass/screen.scss */
+#form h4 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+/* line 446, ../sass/screen.scss */
+#contacts {
+  margin: 30px;
+}
+/* line 449, ../sass/screen.scss */
+#contacts input, #contacts textarea {
+  margin: 15px 15px 15px 0;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #2ecc71;
+}
+
+/* line 458, ../sass/screen.scss */
+.button-set .button {
+  color: #ffffff;
+  margin: 45px 0 5px;
+  background: #1ca428;
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
+
+/* line 469, ../sass/screen.scss */
+.addres-info {
+  margin: 30px;
+  font: 20px "Droid Sans", sans-serif;
+}
+/* line 472, ../sass/screen.scss */
+.addres-info dt {
+  margin: 10px auto;
+}
+
+/* line 479, ../sass/screen.scss */
+#contact {
+  background-color: #34495e;
+  color: #fff;
+  padding: 50px 0;
+  font-weight: bold;
+}
+/* line 486, ../sass/screen.scss */
+#contact p {
+  text-align: left;
+  font-size: 18px;
+}
+/* line 490, ../sass/screen.scss */
+#contact a {
+  margin: 10px auto;
+  color: #fff;
+  font-size: 22px;
+}
+/* line 494, ../sass/screen.scss */
+#contact a:hover {
+  text-decoration: none;
+}
+/* line 498, ../sass/screen.scss */
+#contact .logo {
+  margin: 20px 0;
+  padding: 0;
+}
+/* line 502, ../sass/screen.scss */
+#contact .social-link li {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+@media (min-width: 1921px) {
+  /* line 510, ../sass/screen.scss */
+  .tile li {
+    width: 25%;
+  }
+  /* line 512, ../sass/screen.scss */
+  .tile li:nth-last-child(3) {
+    margin: 0;
+  }
+}
+@media (min-width: 767px) and (max-width: 768px) {
+  /* line 519, ../sass/screen.scss */
+  p {
+    text-align: center;
+  }
+
+  /* line 524, ../sass/screen.scss */
+  .navbar > .container .navbar-brand {
+    margin-left: 10px;
+  }
+  /* line 527, ../sass/screen.scss */
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 10px;
+  }
+  /* line 531, ../sass/screen.scss */
+  .navbar .navbar-nav li a {
+    margin-left: 44px;
+  }
+
+  /* line 535, ../sass/screen.scss */
+  .header {
+    background: url("../images/Kramer_bg.png") no-repeat;
+    color: #FFF;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    background-position: left top;
+  }
+
+  /* line 544, ../sass/screen.scss */
+  .svgIcon {
+    width: 30%;
+  }
+
+  /* line 547, ../sass/screen.scss */
+  #contact {
+    text-align: left;
+  }
+  /* line 549, ../sass/screen.scss */
+  #contact section {
+    display: inline-block;
+    clear: both;
+    margin-left: 24px;
+  }
+  /* line 554, ../sass/screen.scss */
+  #contact h3 {
+    padding-bottom: 70px;
+  }
+  /* line 557, ../sass/screen.scss */
+  #contact p {
+    font-size: 35px;
+    margin: 20px auto;
+  }
+
+  /* line 562, ../sass/screen.scss */
+  #headline h2 {
+    display: block;
+    vertical-align: baseline;
+    margin-top: 342px;
+    font-size: 80px;
+    line-height: 94px;
+  }
+
+  /* line 569, ../sass/screen.scss */
+  #threeSections p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 576, ../sass/screen.scss */
+  .navbar-toggle {
+    background: url("../images/svg/menu_bar.svg") no-repeat;
+    display: block;
+    overflow: hidden;
+    height: 45px;
+    width: 45px;
+  }
+
+  /* line 583, ../sass/screen.scss */
+  .navbar-collapse {
+    background-color: rgba(14, 32, 62, 0.74);
+    border-top: none;
+    box-shadow: none;
+  }
+  /* line 587, ../sass/screen.scss */
+  .navbar-collapse ul {
+    margin: 0 -15px;
+  }
+  /* line 590, ../sass/screen.scss */
+  .navbar-collapse li {
+    padding: 12px 0;
+    text-align: left;
+  }
+  /* line 593, ../sass/screen.scss */
+  .navbar-collapse li:hover {
+    background-color: #2061a4;
+  }
+
+  /* line 598, ../sass/screen.scss */
+  .navbar-brand {
+    height: 42px;
+    margin-left: 20px;
+  }
+
+  /* line 602, ../sass/screen.scss */
+  .header {
+    background: url("../images/Kramer_bg.png") no-repeat;
+    color: #FFF;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    background-position: left top;
+  }
+
+  /* line 611, ../sass/screen.scss */
+  .svgIcon {
+    width: 30%;
+  }
+
+  /* line 615, ../sass/screen.scss */
+  #contact p {
+    text-align: left;
+    margin: 20px auto;
+  }
+  /* line 619, ../sass/screen.scss */
+  #contact section {
+    margin-left: 24px;
+  }
+
+  /* line 623, ../sass/screen.scss */
+  button.navbar-toggle {
+    margin-top: -12px;
+    margin-right: 20px;
+  }
+
+  /* line 627, ../sass/screen.scss */
+  #nav.affix .navbar-toggle {
+    margin-top: -7px;
+  }
+
+  /* line 630, ../sass/screen.scss */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  /* line 632, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:hover {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+  /* line 635, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:active {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+  /* line 638, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:focus {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+
+  /* line 642, ../sass/screen.scss */
+  .navbar .navbar-nav li a:hover {
+    color: #fff;
+  }
+
+  /* line 645, ../sass/screen.scss */
+  #nav.affix a.navbar-brand {
+    padding-bottom: none;
+    margin-top: -4px;
+  }
+
+  /* line 649, ../sass/screen.scss */
+  #headline h2 {
+    display: block;
+    vertical-align: baseline;
+    margin-top: 342px;
+    font-size: 80px;
+    line-height: 94px;
+  }
+
+  /* line 656, ../sass/screen.scss */
+  #threeSections p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* line 660, ../sass/screen.scss */
+  .tile li {
+    width: 50%;
+  }
+}
+@media (max-width: 450px) {
+  /* line 666, ../sass/screen.scss */
+  .navbar-toggle {
+    background: url("../images/svg/menu_bar.svg") no-repeat;
+    display: block;
+    overflow: hidden;
+    height: 45px;
+    width: 45px;
+  }
+
+  /* line 673, ../sass/screen.scss */
+  .navbar-collapse {
+    background-color: rgba(14, 32, 62, 0.74);
+    border-top: none;
+    box-shadow: none;
+  }
+  /* line 677, ../sass/screen.scss */
+  .navbar-collapse ul {
+    margin: 0 -15px;
+  }
+  /* line 680, ../sass/screen.scss */
+  .navbar-collapse li {
+    padding: 12px 0;
+    text-align: left;
+  }
+  /* line 683, ../sass/screen.scss */
+  .navbar-collapse li:hover {
+    background-color: #2061a4;
+  }
+
+  /* line 688, ../sass/screen.scss */
+  .navbar-brand {
+    height: 42px;
+    margin-left: 20px;
+  }
+
+  /* line 692, ../sass/screen.scss */
+  .header {
+    background: url("../images/Kramer_bg.png") no-repeat;
+    color: #FFF;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    text-align: center;
+    background-position: left top;
+  }
+
+  /* line 701, ../sass/screen.scss */
+  .svgIcon {
+    width: 30%;
+  }
+
+  /* line 705, ../sass/screen.scss */
+  #team .logo-service img {
+    border: 5px solid white;
+    border-radius: 115px;
+    width: 185px;
+  }
+  /* line 710, ../sass/screen.scss */
+  #team p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  /* line 714, ../sass/screen.scss */
+  #team h4 {
+    font-size: 28px;
+    margin: 20px auto;
+  }
+
+  /* line 720, ../sass/screen.scss */
+  #contact p {
+    font-size: 25px;
+    margin: 20px auto;
+  }
+  /* line 724, ../sass/screen.scss */
+  #contact h3 {
+    padding-bottom: 60px;
+  }
+
+  /* line 728, ../sass/screen.scss */
+  button.navbar-toggle {
+    margin-top: -12px;
+    margin-right: 20px;
+  }
+
+  /* line 732, ../sass/screen.scss */
+  #nav.affix .navbar-toggle {
+    margin-top: -7px;
+  }
+
+  /* line 735, ../sass/screen.scss */
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  /* line 737, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:hover {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+  /* line 740, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:active {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+  /* line 743, ../sass/screen.scss */
+  .navbar-default .navbar-toggle:focus {
+    background: url("../images/svg/menu_bar_rollover.svg") no-repeat;
+  }
+
+  /* line 747, ../sass/screen.scss */
+  .navbar .navbar-nav li a:hover {
+    color: #fff;
+  }
+
+  /* line 750, ../sass/screen.scss */
+  #nav.affix a.navbar-brand {
+    padding-bottom: none;
+    margin-top: -4px;
+  }
+
+  /* line 754, ../sass/screen.scss */
+  #headline h2 {
+    display: block;
+    vertical-align: baseline;
+    margin-top: 120px;
+    font-size: 46px;
+    line-height: 65px;
+  }
+
+  /* line 761, ../sass/screen.scss */
+  #about p {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0 20px;
+  }
+
+  /* line 766, ../sass/screen.scss */
+  #threeSections p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/* line 772, ../sass/screen.scss */
+.btn:focus {
+  outline: 0;
+}
+
+/* line 776, ../sass/screen.scss */
+#headline h2 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: none;
+}
+
+/* line 787, ../sass/screen.scss */
+#intro p {
+  margin-top: 135px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+/* line 793, ../sass/screen.scss */
+#nav.affix {
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  display: inline-block;
+  background-color: #34495e;
+  padding-top: 10px;
+  border-radius: 0;
+}
